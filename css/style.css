@@ -16,7 +16,8 @@ letter-spacing:1px;
   z-index:6;
 }
 .slides-navigation .prev,
-.slides-navigation .next{
+.slides-navigation .next,
+.slides-navigation .down{
   width:47px;
   height: 47px;
   background-size: cover;
@@ -31,7 +32,10 @@ letter-spacing:1px;
   right: 20px;
   background-image: url(../images/icons/next.png);
 }
-
+.slides-navigation a.down{
+  bottom: 20px;
+  background-image: url(../images/icons/down.png);
+}
 .titleMessage{
 position:absolute;
 width: 100%;
@@ -167,4 +171,11 @@ border-radius:2px;
 .copyright p{
   margin:0;
   margin-bottom: 0;
+}
+.embed-responsive {
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
 }
