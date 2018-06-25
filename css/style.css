@@ -200,9 +200,20 @@ margin-top:-125px;
   position:relative;
 }
 .aboutsty{
-  font-family: verdana;
-  
+  font-family:Times New Roman;
 
+
+}
+.aboutsty h2{
+  font-size: 5vw;
+  font-weight: bold;
+}
+.aboutsty p,
+.aboutsty li{
+  font-size: large;
+  line-height: 1.4;
+  text-align: justify;
+    text-justify: inter-word;
 }
 .squareItem{
   margin-top:30px;
