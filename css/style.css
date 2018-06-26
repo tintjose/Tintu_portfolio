@@ -351,6 +351,24 @@ footer a:first-child {
 footer a:hover {
   color: white;
 }
+
+/* .slide {
+  width: 100%;
+  height: 200px;
+  margin-right: 10px;
+  background: #e74c3c;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+/* .slide:before {
+  display: block;
+  text-align: center;
+  /* content: counter(gallery-cell); */
+  /* line-height: 200px;
+  font-size: 80px;
+  color: white;
+} */
 /* .loader{
   width: 100%;
   height: 100px;
@@ -380,4 +398,4 @@ footer a:hover {
   border-radius: 50%;
   -webkit-transition: background-color 0.25s ease-in-out;
   transition: background-color 0.25s ease-in-out;
-}
+}*/
