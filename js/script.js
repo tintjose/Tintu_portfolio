@@ -29,7 +29,9 @@ $("down").on('click', function(event) {
   });
 $('.owl-carousel').owlCarousel({
     loop:true,
+    nav:true,
     items:4,
+    smartSpeed:900,
     responsive:{
         0:{
             items:1
